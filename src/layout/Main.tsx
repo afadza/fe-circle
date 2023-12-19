@@ -2,7 +2,6 @@ import { Flex, Box, useBreakpointValue } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
 import { NavbarMobile } from "../components/Navbar";
 import ProfileSide from "../components/Profile-Side";
-import Footer from "../components/Footer";
 import { ReactNode } from "react";
 
 export default function Main({ children }: { children: ReactNode }) {

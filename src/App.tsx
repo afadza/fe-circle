@@ -7,7 +7,6 @@ import { useDispatch } from "react-redux";
 import { API, seAuthToken } from "./libs/api";
 import { useEffect, useState } from "react";
 import { AUTH_CHECK, AUTH_ERROR } from "./store/RootReducer";
-import Main from "./layout/Main";
 import Follow from "./pages/follow";
 import ProfilePage from "./pages/profile/Profile";
 import SearchPage from "./pages/search/SearchPage";

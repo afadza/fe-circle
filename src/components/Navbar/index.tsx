@@ -1,15 +1,5 @@
-import {
-  Box,
-  List,
-  ListItem,
-  ListIcon,
-  Text,
-  Button,
-  Flex,
-} from "@chakra-ui/react";
+import { Box, List, ListItem, ListIcon, Text, Button } from "@chakra-ui/react";
 import { RiHome7Fill } from "react-icons/ri";
-import { MdOutlinePersonSearch } from "react-icons/md";
-import { AiOutlineHeart } from "react-icons/ai";
 import { CgProfile } from "react-icons/cg";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
